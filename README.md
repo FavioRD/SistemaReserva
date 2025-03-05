@@ -14,7 +14,7 @@ Gestión del estado de la reserva.
 
 Clonar el repositorio
 
-git clone https://github.com/FavioRD/SistemaReserva.git
+git clone https://github.com/FavioRD/SistemaReservas.git
 
 Abrir en un IDE (Eclipse, IntelliJ, NetBeans).
 
