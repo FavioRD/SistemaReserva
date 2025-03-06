@@ -16,7 +16,7 @@ Paradigma MVC (Modelo - Vista - Controlador)
 
 Clonar el repositorio:
 
-git clone https://github.com/tu-usuario/sistema-reservas.git
+git clone https://github.com/FavioRD/SistemaReserva.git
 cd sistema-reservas
 
 Abrir el proyecto en un IDE (IntelliJ, Eclipse, VS Code con Extensión Java).
