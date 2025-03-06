@@ -1,61 +1,55 @@
-📌 Características
+📌 Funcionalidades Principales
 
-Manejo de clientes y reservas.
+✅ Registrar Reservas: Permite registrar una reserva con datos como cliente, fecha, tipo de reserva, número de personas y duración.
 
-Carga y guardado de reservas en formato CSV.
+✅ Consultar Reservas: Lista todas las reservas registradas y su estado.
 
-Soporte para múltiples formatos de CSV (antiguo y nuevo).
+✅ Finalizar Reserva: Modifica el estado de una reserva a "Finalizada".
 
-Cálculo automático de la hora de finalización de una reserva.
+✅ Guardar y Cargar Datos: Utiliza archivos CSV para persistencia de datos.
 
-Gestión del estado de la reserva.
+✅ Soporte para Múltiples Formatos de CSV: Puede leer reservas en formato antiguo y nuevo.
 
-🚀 Instalación y Ejecución
+📖 Uso del Sistema
 
-Clonar el repositorio
+Agregar una reserva:
 
-git clone https://github.com/FavioRD/SistemaReserva.git
+Ingresar los datos del cliente.
 
-Abrir en un IDE (Eclipse, IntelliJ, NetBeans).
+Ingresar la fecha y hora de reserva.
 
-Compilar y ejecutar Main.java.
+Ingresar la cantidad de personas y duración.
 
-🛠 Tecnologías Usadas
+Guardar la reserva en el sistema.
 
-Java (JDK 8+)
+Consultar reservas:
 
-Manejo de archivos CSV
+Se pueden listar todas las reservas activas y finalizadas.
 
-POO (Programación Orientada a Objetos)
+Modificar una reserva:
 
-📖 Uso
+Se puede modificar el estado o los datos de la reserva.
 
-Registrar una reserva con los datos del cliente.
+🤝 Contribuciones
 
-Guardar y cargar reservas desde un archivo CSV.
+¡Las contribuciones son bienvenidas! Si deseas colaborar, sigue estos pasos:
 
-Consultar reservas existentes.
+Haz un fork del proyecto
 
-Finalizar una reserva para registrar su hora de finalización.
+Crea una nueva rama:
 
-📜 Formato de CSV
+git checkout -b mi-nueva-funcionalidad
 
-El sistema maneja dos formatos:
+Realiza tus cambios y haz un commit:
 
-Formato nuevo: id, nombre, dni, tipo, fecha, personas, horas, estado, hora_registro, hora_finalización
+git commit -m "Agregada nueva funcionalidad X"
 
-Formato antiguo: fecha, nombre, dni, tipo
+Sube tus cambios a GitHub:
 
-✨ Contribuciones
+git push origin mi-nueva-funcionalidad
 
-¡Las contribuciones son bienvenidas! Para contribuir:
+Abre un Pull Request en el repositorio original.
 
-Haz un fork del proyecto.
+✉️ Contacto: Para consultas, puedes abrir un issue en el repositorio.
 
-Crea una nueva rama: git checkout -b feature-nueva.
-
-Realiza tus cambios y haz un commit: git commit -m 'Agregando nueva funcionalidad'.
-
-Sube los cambios: git push origin feature-nueva.
-
-Crea un Pull Request.
+🎯 Desarrollado por Favio Ramos.
