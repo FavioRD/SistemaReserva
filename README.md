@@ -1,4 +1,4 @@
-#📌 Funcionalidades Principales
+📌 Funcionalidades Principales
 
 ✅ Registrar Reservas: Permite registrar una reserva con datos como cliente, fecha, tipo de reserva, número de personas y duración.
 
@@ -10,7 +10,7 @@
 
 ✅ Soporte para Múltiples Formatos de CSV: Puede leer reservas en formato antiguo y nuevo.
 
-##📖 Uso del Sistema
+📖 Uso del Sistema
 
 Agregar una reserva:
 
@@ -30,7 +30,7 @@ Modificar una reserva:
 
 Se puede modificar el estado o los datos de la reserva.
 
-##🤝 Contribuciones
+🤝 Contribuciones
 
 ¡Las contribuciones son bienvenidas! Si deseas colaborar, sigue estos pasos:
 
@@ -50,6 +50,6 @@ git push origin mi-nueva-funcionalidad
 
 Abre un Pull Request en el repositorio original.
 
-##✉️ Contacto: Para consultas, puedes abrir un issue en el repositorio
+✉️ Contacto: Para consultas, puedes abrir un issue en el repositorio
 
-##🎯 Desarrollado por Favio Ramos
+🎯 Desarrollado por Favio Ramos
