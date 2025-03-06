@@ -1,55 +1,26 @@
-📌 Funcionalidades Principales
+📅 Aplicación de Gestión de Reservas
+Una aplicación para gestionar reservas, clientes y horarios con persistencia de datos.
 
-✅ Registrar Reservas: Permite registrar una reserva con datos como cliente, fecha, tipo de reserva, número de personas y duración.
+🚀 Funcionalidades
 
-✅ Consultar Reservas: Lista todas las reservas registradas y su estado.
+✅ Registrar nuevas reservas con datos de cliente.
+✅ Consultar y filtrar reservas por fecha, tipo y estado.
+✅ Calcular la hora de finalización automáticamente.
+✅ Finalizar reservas y actualizar su estado.
+✅ Guardar y recuperar reservas en formato CSV.
 
-✅ Finalizar Reserva: Modifica el estado de una reserva a "Finalizada".
+🛠️ Instalación y ejecución
 
-✅ Guardar y Cargar Datos: Utiliza archivos CSV para persistencia de datos.
+1️⃣ Clona este repositorio:
+git clone https://github.com/FavioRD/SistemaReserva.git
+2️⃣ Entra en la carpeta del proyecto:
+cd NOMBRE_DEL_REPOSITORIO
+3️⃣ Compila y ejecuta el proyecto (Java):
+javac -d bin -sourcepath src src/Main.java
+java -cp bin Main
 
-✅ Soporte para Múltiples Formatos de CSV: Puede leer reservas en formato antiguo y nuevo.
-
-📖 Uso del Sistema
-
-Agregar una reserva:
-
-Ingresar los datos del cliente.
-
-Ingresar la fecha y hora de reserva.
-
-Ingresar la cantidad de personas y duración.
-
-Guardar la reserva en el sistema.
-
-Consultar reservas:
-
-Se pueden listar todas las reservas activas y finalizadas.
-
-Modificar una reserva:
-
-Se puede modificar el estado o los datos de la reserva.
-
-🤝 Contribuciones
-
-¡Las contribuciones son bienvenidas! Si deseas colaborar, sigue estos pasos:
-
-Haz un fork del proyecto
-
-Crea una nueva rama:
-
-git checkout -b mi-nueva-funcionalidad
-
-Realiza tus cambios y haz un commit:
-
-git commit -m "Agregada nueva funcionalidad X"
-
-Sube tus cambios a GitHub:
-
-git push origin mi-nueva-funcionalidad
-
-Abre un Pull Request en el repositorio original.
-
-✉️ Contacto: Para consultas, puedes abrir un issue en el repositorio
-
-🎯 Desarrollado por Favio Ramos
+🏗️ Tecnologías usadas
+Java
+Programación Orientada a Objetos
+Manejo de archivos CSV
+Java Swing (si incluye interfaz gráfica)
